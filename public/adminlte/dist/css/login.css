@@ -1,0 +1,71 @@
+body{
+	background-color:#fff
+}
+
+#auth{
+	height:100vh;
+	overflow-x:hidden;
+	background: #fbfbfb
+}
+
+#auth #auth-right{
+	background:url(/adminlte/dist/img/login5.jpg)no-repeat center,
+	linear-gradient(90deg,#2d499d,#3f5491);
+	height:100%;
+	background-size: cover;
+
+}
+
+#auth #auth-right-1{
+	background:url(/adminlte/dist/img/login6.jpg)no-repeat center,
+	linear-gradient(90deg,#2d499d,#3f5491);
+	height:100%;
+	background-size: cover;
+
+}
+
+#auth #auth-right-2{
+	background:url(/adminlte/dist/img/login7.jpg)no-repeat center,
+	linear-gradient(90deg,#2d499d,#3f5491);
+	height:100%;
+	background-size: cover;
+
+}
+
+#auth #auth-left{
+	padding:2rem 3rem
+}
+
+#auth #auth-left .auth-title{
+	font-size:2.5rem;
+	margin-bottom:0.5rem
+}
+
+#auth #auth-left .auth-subtitle{
+	color:#515355;
+	font-size:1.3rem;
+	line-height:2rem
+}
+
+
+#auth #auth-left .auth-logo{
+	margin-bottom:1rem
+}
+
+#auth #auth-left .auth-logo img{
+	height:5rem;
+	margin-left: -0.75rem;
+}
+
+@media screen and (max-width:767px){
+	#auth #auth-left{padding:5rem}
+}
+
+@media screen and (max-width:576px){
+	#auth #auth-left{padding:5rem 3rem}
+}
+
+body.theme-dark #auth-right{
+	background:url(../../../assets/images/4853433.png?45649b87e0b3f50bfa1372c6cdb4595f),
+	linear-gradient(90deg,#2d499d,#3f5491)
+}
